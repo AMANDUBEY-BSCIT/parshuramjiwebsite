@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>व्यक्तित्व</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<a href="index.html" class="back-btn">⬅ वापस जाएं</a>
+
+<div class="article-container">
+<h1 class="article-title">व्यक्तित्व और प्रतीक</h1>
+
+<div id="page1">
+<p>1. भगवान परशुराम का व्यक्तित्व अत्यंत प्रभावशाली था।</p>
+<p>2. वे ज्ञान और शक्ति के प्रतीक थे।</p>
+<p>3. उनका स्वभाव गंभीर और तपस्वी था।</p>
+<p>4. वे अत्यंत अनुशासित जीवन जीते थे।</p>
+<p>5. वे न्यायप्रिय और साहसी थे।</p>
+<p>6. वे क्रोधी भी थे लेकिन धर्म के लिए।</p>
+<p>7. उनका जीवन तपस्या से भरा था।</p>
+<p>8. वे भगवान शिव के परम भक्त थे।</p>
+<p>9. वे महान गुरु भी माने जाते हैं।</p>
+<p>10. उनका व्यक्तित्व प्रेरणादायक है।</p>
+
+<button onclick="nextPage()">👉 और देखें</button>
+</div>
+
+<div id="page2" style="display:none;">
+<p>11. उनका मुख्य प्रतीक परशु (फरसा) है।</p>
+<p>12. यह शक्ति और न्याय का प्रतीक है।</p>
+<p>13. वे ब्राह्मण और क्षत्रिय गुणों का संगम थे।</p>
+<p>14. उनका जीवन संतुलन का उदाहरण है।</p>
+<p>15. वे धर्म के रक्षक माने जाते हैं।</p>
+<p>16. उनका व्यक्तित्व कठोर और दयालु दोनों था।</p>
+<p>17. वे त्याग और तपस्या के प्रतीक हैं।</p>
+<p>18. उनका चरित्र आदर्श माना जाता है।</p>
+<p>19. वे आज भी प्रेरणा स्रोत हैं।</p>
+<p>20. उनका जीवन हमें सत्य और धर्म का मार्ग दिखाता है।</p>
+
+<button onclick="prevPage()">⬅ वापस जाएँ</button>
+</div>
+
+</div>
+
+<script>
+function nextPage(){
+document.getElementById("page1").style.display="none";
+document.getElementById("page2").style.display="block";
+}
+function prevPage(){
+document.getElementById("page2").style.display="none";
+document.getElementById("page1").style.display="block";
+}
+</script>
+
+</body>
+</html>

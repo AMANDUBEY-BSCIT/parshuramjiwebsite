@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>परिचय</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<a href="index.html" class="back-btn">⬅ वापस जाएं</a>
+
+<div class="article-container">
+
+    <h1 class="article-title">भगवान परशुराम का परिचय</h1>
+
+    <!-- ========== PAGE 1 (1–10) ========== -->
+    <div id="page1">
+
+        <p>1. भगवान परशुराम विष्णु जी के छठे अवतार माने जाते हैं।</p>
+        <p>2. उनका जन्म ऋषि जमदग्नि और माता रेणुका के घर हुआ था।</p>
+        <p>3. उनका मूल नाम राम था, लेकिन परशु धारण करने के कारण वे परशुराम कहलाए।</p>
+        <p>4. उन्हें भगवान शिव से दिव्य अस्त्र परशु प्राप्त हुआ था।</p>
+        <p>5. वे महान तपस्वी और योद्धा दोनों माने जाते हैं।</p>
+        <p>6. उनका उद्देश्य अधर्म का नाश करना था।</p>
+        <p>7. उन्होंने पृथ्वी को 21 बार क्षत्रिय-विहीन किया था।</p>
+        <p>8. वे चिरंजीवी माने जाते हैं।</p>
+        <p>9. उन्होंने धर्म और न्याय की रक्षा की।</p>
+        <p>10. वे भीष्म और द्रोणाचार्य के गुरु माने जाते हैं।</p>
+
+        <!-- NEXT BUTTON -->
+        <button onclick="nextPage()">👉 और देखें</button>
+
+    </div>
+
+    <!-- ========== PAGE 2 (11–20) ========== -->
+    <div id="page2" style="display:none;">
+
+        <p>11. उनका जीवन संयम और क्रोध का संतुलन दिखाता है।</p>
+        <p>12. वे ब्राह्मण कुल में जन्मे लेकिन योद्धा बने।</p>
+        <p>13. वे धर्म रक्षा के लिए कठोर रूप अपनाते थे।</p>
+        <p>14. केरल और कोंकण में उनकी विशेष पूजा होती है।</p>
+        <p>15. केरल की उत्पत्ति से उनका संबंध बताया जाता है।</p>
+        <p>16. उनका व्यक्तित्व शक्ति और ज्ञान का मिश्रण है।</p>
+        <p>17. वे भगवान शिव के महान भक्त थे।</p>
+        <p>18. उन्होंने अन्याय के विरुद्ध जीवन समर्पित किया।</p>
+        <p>19. उनका उल्लेख कई पुराणों में मिलता है।</p>
+        <p>20. वे आज भी न्याय और पराक्रम के प्रतीक हैं।</p>
+
+        <!-- BACK BUTTON -->
+        <button onclick="prevPage()">⬅ वापस जाएँ</button>
+
+    </div>
+
+</div>
+
+<script>
+function nextPage() {
+    document.getElementById("page1").style.display = "none";
+    document.getElementById("page2").style.display = "block";
+}
+
+function prevPage() {
+    document.getElementById("page2").style.display = "none";
+    document.getElementById("page1").style.display = "block";
+}
+
+</script>
+</body>
+</html>

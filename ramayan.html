@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>रामायण और महाभारत में भूमिका</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<a href="index.html" class="back-btn">⬅ वापस जाएं</a>
+
+<div class="article-container">
+
+    <h1 class="article-title">रामायण और महाभारत में भूमिका</h1>
+
+    <!-- PAGE 1 (RAMAYAN) -->
+    <div id="page1">
+
+        <h2>रामायण में भूमिका</h2>
+
+        <p>1. भगवान परशुराम का उल्लेख रामायण में महत्वपूर्ण रूप से मिलता है।</p>
+        <p>2. वे भगवान शिव के परम भक्त और महान योद्धा थे।</p>
+        <p>3. जनकपुरी में सीता स्वयंवर के समय उनकी उपस्थिति हुई थी।</p>
+        <p>4. भगवान राम ने शिव धनुष को तोड़ दिया था।</p>
+        <p>5. यह देखकर परशुराम अत्यंत क्रोधित हो गए थे।</p>
+        <p>6. उन्होंने भगवान राम को युद्ध के लिए चुनौती दी।</p>
+        <p>7. राम ने विनम्रता और धैर्य से उनका सामना किया।</p>
+        <p>8. परशुराम ने राम की दिव्य शक्ति को पहचान लिया।</p>
+        <p>9. इसके बाद उनका क्रोध शांत हो गया।</p>
+        <p>10. उन्होंने राम को आशीर्वाद देकर विदा ली।</p>
+
+        <button onclick="nextPage()">👉 महाभारत देखें</button>
+
+    </div>
+
+    <!-- PAGE 2 (MAHABHARAT) -->
+    <div id="page2" style="display:none;">
+
+        <h2>महाभारत में भूमिका</h2>
+
+        <p>11. भगवान परशुराम का महाभारत में भी महत्वपूर्ण स्थान है।</p>
+        <p>12. वे महान गुरु के रूप में प्रसिद्ध थे।</p>
+        <p>13. उन्होंने भीष्म पितामह को शस्त्र विद्या सिखाई।</p>
+        <p>14. द्रोणाचार्य और कर्ण भी उनके शिष्य थे।</p>
+        <p>15. कर्ण ने उनसे ब्राह्मण बनकर शिक्षा प्राप्त की थी।</p>
+        <p>16. जब सत्य सामने आया तो परशुराम ने कर्ण को शाप दिया।</p>
+        <p>17. उन्होंने भीष्म के साथ युद्ध भी किया था।</p>
+        <p>18. उनका उद्देश्य सदैव धर्म की स्थापना था।</p>
+        <p>19. वे महाभारत काल में भी जीवित माने जाते हैं।</p>
+        <p>20. वे आज भी चिरंजीवी माने जाते हैं।</p>
+
+        <button onclick="prevPage()">⬅ रामायण देखें</button>
+
+    </div>
+
+</div>
+
+<script>
+function nextPage() {
+    document.getElementById("page1").style.display = "none";
+    document.getElementById("page2").style.display = "block";
+}
+
+function prevPage() {
+    document.getElementById("page2").style.display = "none";
+    document.getElementById("page1").style.display = "block";
+}
+</script>
+
+</body>
+</html>

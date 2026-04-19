@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>परंपरा</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<a href="index.html" class="back-btn">⬅ वापस जाएं</a>
+
+<div class="article-container">
+<h1 class="article-title">क्षेत्र / परंपरा</h1>
+
+<div id="page1">
+<p>1. भगवान परशुराम की परंपरा पूरे भारत में फैली हुई है।</p>
+<p>2. विशेष रूप से कोंकण और केरल में उनकी पूजा होती है।</p>
+<p>3. उन्हें ब्राह्मणों के आदर्श के रूप में माना जाता है।</p>
+<p>4. उनकी जयंती बड़े उत्साह से मनाई जाती है।</p>
+<p>5. धार्मिक अनुष्ठानों में उनका स्मरण किया जाता है।</p>
+<p>6. कई समाज उन्हें कुलदेवता मानते हैं।</p>
+<p>7. उनकी परंपरा में तपस्या और अनुशासन का महत्व है।</p>
+<p>8. वे धर्म और न्याय के प्रतीक हैं।</p>
+<p>9. उनके नाम पर कई मंदिर स्थापित हैं।</p>
+<p>10. उनकी पूजा में सादगी और श्रद्धा प्रमुख होती है।</p>
+
+<button onclick="nextPage()">👉 और देखें</button>
+</div>
+
+<div id="page2" style="display:none;">
+<p>11. परशुराम जयंती वैशाख मास में मनाई जाती है।</p>
+<p>12. इस दिन व्रत और पूजा की जाती है।</p>
+<p>13. कई जगह शोभायात्राएं निकाली जाती हैं।</p>
+<p>14. उनके जीवन से प्रेरणा ली जाती है।</p>
+<p>15. उनकी परंपरा में गुरु का विशेष महत्व है।</p>
+<p>16. वे सत्य और धर्म के मार्गदर्शक हैं।</p>
+<p>17. उनकी कथा पीढ़ी दर पीढ़ी सुनाई जाती है।</p>
+<p>18. वे संस्कृति और परंपरा के रक्षक माने जाते हैं।</p>
+<p>19. उनकी पूजा से शक्ति और ज्ञान की प्राप्ति मानी जाती है।</p>
+<p>20. उनकी परंपरा आज भी जीवित और प्रभावशाली है।</p>
+
+<button onclick="prevPage()">⬅ वापस जाएँ</button>
+</div>
+
+</div>
+
+<script>
+function nextPage(){
+document.getElementById("page1").style.display="none";
+document.getElementById("page2").style.display="block";
+}
+function prevPage(){
+document.getElementById("page2").style.display="none";
+document.getElementById("page1").style.display="block";
+}
+</script>
+
+</body>
+</html>
